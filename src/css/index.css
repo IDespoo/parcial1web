@@ -1,0 +1,75 @@
+
+body {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f40a;
+}
+
+.header {
+    background-color: #f4f40a;
+    color: black;
+    padding: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.header:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #f4f40a;
+    font-size: 20px;
+}
+a:hover {
+    background-color: #ffffff;
+    color: black;
+    font-size: 20px;
+}
+
+a:focus {
+    background-color: #eeeef2;
+    color: black;
+    font-size: 20px;
+}
+
+.product {
+    border: 2px dashed #ccc;
+    border-style: dashed; 
+    outline: 3px dotted black;
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px 5px;
+    box-shadow: 0 15px 20px rgb(0, 0, 0, 0.5);
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.product-background {
+    /* background-color: green; */
+    background-image: url(https://images.pexels.com/photos/175039/pexels-photo-175039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p::after {
+    content: "<<";
+    margin-left: 3px;
+    color: #f4f40a;
+}
+
+p::first-letter {
+    font-size: 30px;
+    color: #f4f40a;
+}

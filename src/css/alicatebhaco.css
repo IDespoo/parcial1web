@@ -1,0 +1,71 @@
+body{
+    color: rgb(15, 1, 1);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background:white ;
+    background-image: url(https://images.pexels.com/photos/175039/pexels-photo-175039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    font-family: 'Inconsolata', monospace;
+    
+}
+
+tbody tr:hover{
+    background:  #6565c649;
+}
+tbody tr:hover{
+    cursor: pointer;
+}
+
+cite{
+    text-transform: uppercase;
+}
+
+table{
+    text-align: center;
+    margin: 0% auto;
+    border-collapse: collapse;
+    border-bottom: solid 1px white;
+    table-layout: fixed;
+}
+
+.info
+{
+    width: 95%;
+    height: auto;
+    background: #b0b0d14a;
+    margin: 05% auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 15px 20px rgb(0, 0, 0, 0.5);
+}
+
+a{
+    width: 95%;
+    height: auto;
+    margin: 05% auto;
+    color: rgba(151, 218, 249, 0.82);
+    padding: 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    
+}
+thead{
+    background:  #24245d67;
+    border-bottom: solid 1px white
+}
+th{
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: solid 1px white
+}
+td{
+    padding: 15px;
+    border-bottom: solid 1px white;
+}
+
+a:hover{
+    font-size: 24px;
+    box-shadow: 0 15px 20px rgb(0, 0, 0, 0.5);
+}
